@@ -1,0 +1,71 @@
+body{
+    background-image: url(jpg/star.jpg);
+}
+
+.nav{
+    border:1px solid #ccc;
+    list-style:none;
+    margin:50px 100px;
+    padding:10px;
+    text-align:center;
+    width: 500px;
+    float:right;
+    background: transparent;
+    border-radius: 25px;
+}
+
+.nav li{
+    display:inline;
+    margin: 0 auto;
+}
+
+li a:hover {
+    background-color: #ffe4b5;
+}
+
+
+.nav a{
+    display:block;
+    padding:10px;
+    color:#cd5c5c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    padding-bottom:50px;
+}
+
+
+
+h6{
+    color:lightcyan;
+    font-family: Didot;
+    font-size:20px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slider {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    background-color:rgba(128,0,0,0.4);
+    margin-left:50px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius: 25px;
+    margin-top:70px;
+
+
+}
+
+.slided {
+    height: 500px;
+
+    margin-left:50px;
+}
