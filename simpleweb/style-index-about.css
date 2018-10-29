@@ -1,0 +1,90 @@
+.container-about {
+    width: 100%;
+    position: relative;
+
+}
+
+#card-about {
+    width: 377px;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    text-align: center;
+    font-size: 100px;
+}
+
+#card-about figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 377px;
+    backface-visibility: hidden;
+
+}
+
+#card-about .front {
+    background-image: url(jpg/Myguide.png);
+    left:-10px;
+    height: 803px;
+    top:-72px;
+}
+
+#card-about .back {
+    background: deeppink;
+    transform: rotateY( 180deg);
+    right:764px;
+    height: 803px;
+    top:-72px;
+}
+
+#card-about.flipped {
+    transform: rotateY( 180deg);
+}
+
+
+
+/*number2*/
+
+
+.containers-about {
+    width: 100%;
+    position: relative;
+}
+
+#cards-about {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    text-align: center;
+    font-size: 100px;
+}
+
+#cards-about figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 377px;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+
+#cards-about .front {
+    background-image: url(jpg/Myguide.png);
+
+}
+
+#cards-about .back {
+    background: deeppink;
+    transform: rotateY( 180deg);
+    height: 803px;
+    top:-72px;
+    right:377px;
+}
+
+#cards-about.flipped {
+    transform: rotateY(180deg);
+}
