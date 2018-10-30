@@ -1,0 +1,58 @@
+
+body{
+    background-color: white;
+}
+
+.navsOne{
+    list-style:none;
+    padding:50px;
+    color:yellow;
+    position:relative;
+    z-index:4;
+
+}
+
+.navsTwo{
+    list-style:none;
+    padding: 50px;
+    margin-left: 14%;
+    color:yellow;
+    position:relative;
+    z-index: 6;
+}
+
+.navsThree{
+    list-style:none;
+    padding:50px;
+    margin-left: 12%;
+    color:yellow;
+    z-index: auto;
+}
+
+.nav li{
+    display:inline;
+}
+
+li a:hover {
+    background-color: #ffe4b5;
+}
+
+
+.nav a{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+
+}
+
+
+
+h6{
+    color:lightcyan;
+    font-family: Didot;
+    font-size:20px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+
+}
