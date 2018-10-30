@@ -1,6 +1,5 @@
 
 
-
 var cardContact = document.getElementById('card-contact');
 var cardsContact = document.getElementById('cards-contact');
 var card3Contact = document.getElementById('card3-contact');
