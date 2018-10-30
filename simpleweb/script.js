@@ -2,10 +2,12 @@
 
 var cardContact = document.getElementById('card-contact');
 var cardsContact = document.getElementById('cards-contact');
+var card3Contact = document.getElementById('card3-contact');
 var flipContact = document.getElementById('flipContact');
 
 flipContact.addEventListener('click', function() {
     cardsContact.classList.toggle('flipped');
+    card3Contact.classList.toggle('flipped');
     cardContact.classList.toggle('flipped');
 }, false);
 
@@ -20,10 +22,4 @@ flipAbout.addEventListener('click', function() {
     cardAbout.classList.toggle('flipped');
 }, false);
 
-var card = document.getElementById('card');
-var card2 = document.getElementById('card2');
 
-document.getElementById('flip').addEventListener('click', function() {
-    card.classList.toggle('flipped');
-    card2.classList.toggle('flipped');
-}, false);
