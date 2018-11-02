@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style-index.css">
     <link rel="stylesheet" href="style-index-about.css">
     <link rel="stylesheet" href="style-index-contacts.css">
+    <link rel="stylesheet" href="style-index-modal.css">
     <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Website</title>
@@ -16,51 +17,58 @@
 
 <ul class="nav">
     <li><a href="#" id="flipAbout" class="navsOne">About us</a></li>
-    <li><a href="project.html" class="navsTwo">Projects</a></li>
+    <li><a href="#" id="trigger" class="navsTwo">Projects</a></li>
     <li><a href="#" id="flipContact" class="navsThree">Contact</a></li>
 </ul>
 
 
     <div class="section-container-contact">
-        <section class="container-contact">
             <div id="card-contact">
                 <figure class="back">blah blah</figure>
             </div>
-        </section>
-        <section class="containers-contact">
             <div id="cards-contact">
                 <figure class="back">blah blah</figure>
-                <figure class="front"></figure>
             </div>
-        </section>
-        <section class="container3-contact">
-            <div id="card3-contact">
+         <div id="card3-contact">
+                <figure class="back">blah blah</figure>
+            </div>`
+            <div id="card2-contact">
+                <figure class="front"></figure>
                 <figure class="back">blah blah</figure>
             </div>
-        </section>
     </div>
 
 
 
-    <div class="section-container-about">
-        <section class="container-about">
+<div class="section-container-about">
             <div id="card-about">
                 <figure class="back">blah blah</figure>
                 <figure class="front"></figure>
             </div>
-        </section>
-        <section class="containers-about">
             <div id="cards-about">
                 <figure class="back">blah blah</figure>
-                <figure class="front"></figure>
             </div>
-        </section>
-        <section class="containers3-about">
-            <div id="cards3-about">
+            <div id="cards2-about">
                 <figure class="back">blah blah</figure>
             </div>
-        </section>
     </div>
+
+    <div id="card">
+        <figure class="front"></figure>
+    </div>
+
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+
+</div>
+
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,41 +1,43 @@
-.container-about {
+.section-container-about {
     width: 100%;
     position: relative;
 
 }
 
 #card-about {
-    width: 377px;
+    width: 450px;
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
+    z-index:3;
 }
 
 #card-about figure {
     margin: 0;
     display: block;
     position: absolute;
-    width: 377px;
+    width: 450px;
     backface-visibility: hidden;
 
 }
 
 #card-about .front {
     background-image: url(jpg/Myguide.png);
-    left:-10px;
+    left:17px;
     height: 803px;
-    top:-72px;
+    top:-92px;
+    width: 450px;
 }
 
 #card-about .back {
     background: deeppink;
     transform: rotateY( 180deg);
-    right:764px;
+    right:955px;
     height: 803px;
-    top:-72px;
+    top:-92px;
 }
 
 #card-about.flipped {
@@ -47,10 +49,6 @@
 /*number2*/
 
 
-.containers-about {
-    width: 100%;
-    position: relative;
-}
 
 #cards-about {
     width: 400px;
@@ -67,33 +65,33 @@
     margin: 0;
     display: block;
     position: absolute;
-    width: 377px;
+    width: 450px;
     height: 100%;
     backface-visibility: hidden;
 
 }
 
 
+
+
 #cards-about .back {
     background: deeppink;
     transform: rotateY( 180deg);
     height: 803px;
-    top:-72px;
-    right:377px;
+    top:-92px;
+    right:487px;
 }
 
 #cards-about.flipped {
     transform: rotateY(180deg);
 }
 
-/*numb 1*/
 
-.containers3-about {
-    width: 100%;
-    position: relative;
-}
+/*numb 2*/
 
-#cards3-about {
+
+
+#cards2-about {
     width: 400px;
     height: 100%;
     position: absolute;
@@ -104,24 +102,50 @@
     z-index: 3;
 }
 
-#cards3-about figure {
+#cards2-about figure {
     margin: 0;
     display: block;
     position: absolute;
-    width: 377px;
+    width: 450px;
     height: 100%;
     backface-visibility: hidden;
 
 }
 
-#cards3-about .back {
+#cards2-about .back {
     background: deeppink;
     transform: rotateY( 180deg);
     height: 803px;
-    top:-72px;
-    right:-10px;
+    top:-92px;
+    right:17px;
 }
 
-#cards3-about.flipped {
+#cards2-about.flipped {
     transform: rotateY(180deg);
+}
+
+
+
+/*middle*/
+
+#card {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    z-index:3;
+}
+
+#card figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 450px;
+}
+
+#card .front {
+    background-image: url(jpg/Myguide3.png);
+    left:487px;
+    height: 803px;
+    top:-92px;
+    width:450px;
 }

@@ -4,11 +4,10 @@ body{
 
 .navsOne{
     list-style:none;
-    padding:50px;
     color:yellow;
     position:relative;
     z-index:4;
-
+    left: 130px;
 }
 
 .navsTwo{
@@ -18,6 +17,7 @@ body{
     color:yellow;
     position:relative;
     z-index: 6;
+    left:240px;
 }
 
 .navsThree{
@@ -25,7 +25,9 @@ body{
     padding:50px;
     margin-left: 12%;
     color:yellow;
-    z-index: auto;
+    position: relative;
+    z-index: 3;
+    left:320px;
 }
 
 .nav li{
