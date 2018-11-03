@@ -13,7 +13,7 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index: 6;
+    z-index: 2;
 }
 
 #card-contact figure {
@@ -29,11 +29,10 @@
 #card-contact .back {
     background: blue;
     transform: rotateY( 180deg);
-    right:559px;
+    margin-left: -148%;
     height: 803px;
     top:-72px;
     position:relative;
-
 }
 
 #card-contact.flipped {
@@ -69,8 +68,7 @@
     transform: rotateY( 180deg);
     height: 803px;
     top:-72px;
-    right:17px;
-
+    margin-left: -4%;
 }
 
 #cards-contact.flipped {
@@ -89,7 +87,6 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index: 1;
 }
 
 #card3-contact figure {
@@ -102,10 +99,6 @@
 
 }
 
-#card3-contact .front {
-    background: blue;
-
-}
 
 #card3-contact .back {
     background: blue;
@@ -113,7 +106,6 @@
     right:765px;
     height: 803px;
     top:-92px;
-
 }
 
 #card3-contact.flipped {
@@ -131,7 +123,6 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index: 1;
 }
 
 #card2-contact figure {
@@ -146,17 +137,17 @@
 
 #card2-contact .front {
     background-image: url(jpg/Myguide2.png);
-    left:955px;
+    margin-left:253%;
     height: 803px;
     top:-92px;
     width:450px;
-
+    z-index:1;
 }
 
 #card2-contact .back {
     background: blue;
     transform: rotateY( 180deg);
-    right:955px;
+    margin-left: -272%;
     height: 803px;
     top:-92px;
 

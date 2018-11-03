@@ -2,53 +2,75 @@ body{
     background-color: white;
 }
 
-.navsOne{
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.nav_about {
     list-style:none;
     color:yellow;
     position:relative;
     z-index:4;
-    left: 130px;
+    margin-left:10%;
 }
 
-.navsTwo{
+.nav_project {
     list-style:none;
-    padding: 50px;
-    margin-left: 14%;
     color:yellow;
     position:relative;
-    z-index: 6;
-    left:240px;
+    z-index: 2;
+    margin-left: 25%;
 }
 
-.navsThree{
+.nav_contact {
     list-style:none;
-    padding:50px;
-    margin-left: 12%;
+    margin-left: 26%;
     color:yellow;
     position: relative;
     z-index: 3;
-    left:320px;
 }
 
-.nav li{
-    display:inline;
+@media screen and (max-width: 1080px) {
+    .nav_project {
+        margin-left: 20%;
+    }
+
+    .nav_contact {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav_project {
+        margin-left: 15%;
+    }
+
+    .nav_contact {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .nav_project {
+        margin-left: 10%;
+    }
+
+    .nav_contact {
+        margin-left: 10%;
+    }
 }
 
 li a:hover {
     background-color: #ffe4b5;
 }
 
-
-.nav a{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 35px;
-
-}
-
-
-
-h6{
+h6 {
     color:lightcyan;
     font-family: Didot;
     font-size:20px;

@@ -12,7 +12,7 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index:3;
+    z-index: 3;
 }
 
 #card-about figure {
@@ -26,16 +26,17 @@
 
 #card-about .front {
     background-image: url(jpg/Myguide.png);
-    left:17px;
+    margin-left:4%;
     height: 803px;
     top:-92px;
     width: 450px;
+    z-index: 1;
 }
 
 #card-about .back {
     background: deeppink;
     transform: rotateY( 180deg);
-    right:955px;
+    margin-left: -212.5%;
     height: 803px;
     top:-92px;
 }
@@ -58,7 +59,7 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index: 6;
+    z-index: 3;
 }
 
 #cards-about figure {
@@ -79,7 +80,7 @@
     transform: rotateY( 180deg);
     height: 803px;
     top:-92px;
-    right:487px;
+    margin-left:-134.3%;
 }
 
 #cards-about.flipped {
@@ -99,7 +100,6 @@
     transition: transform 1s;
     text-align: center;
     font-size: 100px;
-    z-index: 3;
 }
 
 #cards2-about figure {
@@ -117,7 +117,7 @@
     transform: rotateY( 180deg);
     height: 803px;
     top:-92px;
-    right:17px;
+    margin-left:-17%;
 }
 
 #cards2-about.flipped {
@@ -127,12 +127,16 @@
 
 
 /*middle*/
+.section-container {
+    width: 100%;
+    position: relative;
+
+}
 
 #card {
     position: absolute;
     text-align: center;
     font-size: 100px;
-    z-index:3;
 }
 
 #card figure {
@@ -148,4 +152,5 @@
     height: 803px;
     top:-92px;
     width:450px;
+    z-index: 1;
 }
