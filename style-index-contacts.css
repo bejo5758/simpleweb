@@ -157,3 +157,43 @@
     transform: rotateY( 180deg);
 }
 
+
+
+@media screen and (max-width: 1080px) {
+    #cards-contact .back {
+        margin-left: 20%;
+    }
+
+    #cards-contact .back {
+        margin-left: 20%;
+    }
+
+    #card3-contact .back {
+        margin-left: 30%;
+    }
+
+    #card2-contact .back {
+        margin-left: 30%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .nav_project {
+        margin-left: 15%;
+    }
+
+    .nav_contact {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .nav_project {
+        margin-left: 10%;
+    }
+
+    .nav_contact {
+        margin-left: 10%;
+    }
+}

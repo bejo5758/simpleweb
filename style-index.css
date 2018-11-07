@@ -38,11 +38,11 @@ body{
 
 @media screen and (max-width: 1080px) {
     .nav_project {
-        margin-left: 20%;
+        margin-left: 37%;
     }
 
     .nav_contact {
-        margin-left: 20%;
+        margin-left: 30%;
     }
 }
 
@@ -59,6 +59,16 @@ body{
 @media screen and (max-width: 340px) {
     .nav_project {
         margin-left: 10%;
+    }
+
+    .nav_contact {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_project {
+        margin-left: 31%;
     }
 
     .nav_contact {
